@@ -21,11 +21,6 @@ public interface Actor {
 	static String identifador() {
 		return "Yo soy un Actor";
 	}
-
-	@Override
-	String toString();
-
-	void finalize() throws Throwable;
 	
 				
 }
